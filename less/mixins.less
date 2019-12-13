@@ -1,1 +1,21 @@
 // Mixins Here
+
+.firstbutton(@color, @pad, @background, @size, @radius) {
+    color: @color;
+    padding: @pad;
+    background: @background;
+    font-size: @size;
+    border-radius: @radius;
+}
+
+@phone: ~"(max-width:500px)";
+
+
+
+@darkpurple: purple;
+
+.darktext() {
+    color: purple;
+    font-size: 2rem;
+
+}

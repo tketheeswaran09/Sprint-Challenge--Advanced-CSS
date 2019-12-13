@@ -151,6 +151,11 @@ h5 {
 h1 {
   font-size: 6rem;
 }
+@media (max-width:500px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,6 +165,9 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+img {
+  width: 100%;
 }
 .container {
   max-width: 800px;
@@ -178,12 +186,9 @@ p {
     background: gainsboro;
   }
 }
-.firstt {
-  display: flex;
-  justify-content: center;
-}
 .firstt .logo1 {
   border-radius: 2%;
+  width: 100%;
 }
 :root {
   font: size 16px;
@@ -192,29 +197,29 @@ nav {
   color: purple;
   font-size: 2rem;
   margin: 2% 0;
-  justify-items: center;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
-  width: 40%;
-  margin-left: 8%;
+  width: 50%;
 }
 @media (max-width:500px) {
   nav {
-    width: 80%;
+    width: 100%;
   }
 }
-a {
+nav a {
   padding: 2%;
   color: purple;
   font-size: 2rem;
+  text-decoration: none;
 }
-a:hover {
+nav a:hover {
   color: #ff1aff;
 }
 @media (max-width:500px) {
-  a {
+  nav a {
     color: grey;
     font-size: 14px;
-    width: 20%;
   }
 }
 footer {
@@ -249,7 +254,7 @@ footer {
 }
 .home img {
   width: 28%;
-  margin: 20px 2.5%;
+  padding: 2rem;
   border-radius: 20px;
   height: 100%;
 }

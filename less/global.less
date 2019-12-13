@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-@phone: ~"(max-width:500px)";
 
 html {
   font-size: 62.5%;
@@ -32,7 +31,12 @@ h5 {
 
 h1 {
   font-size: 6rem;
+
+  @media @phone {
+    font-size: 4rem;
+  }
 }
+
 
 h2 {
   font-size: 3.2rem;
@@ -45,6 +49,10 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+
+img {
+  width: 100%;
 }
 
 .container {
@@ -67,11 +75,11 @@ p {
 }
 
 .firstt {
-  display: flex;
-  justify-content: center;
+
 
   .logo1 {
     border-radius: 2%;
-    
+    width: 100%;
+
   }
 }
