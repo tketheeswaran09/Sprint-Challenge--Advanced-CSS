@@ -1,1 +1,42 @@
 // Navigation code here
+:root {
+    font: size 16px;
+}
+
+@phone: ~"(max-width:500px)";
+
+@darkpurple: purple;
+
+.darktext() {
+    color: purple;
+    font-size: 2rem;
+
+}
+
+nav {
+    .darktext;
+    margin: 2% 0;
+    justify-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 8%;
+
+    @media @phone {
+        width: 80%;
+    }
+}
+
+a {
+    padding: 2%;
+    .darktext();
+
+    &:hover {
+        color: lighten(@darkpurple, 30%);
+    }
+
+    @media @phone {
+        color: grey;
+        font-size: 14px;
+        width: 20%;
+    }
+}

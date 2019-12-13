@@ -75,7 +75,7 @@ Follow these steps for completing your project.
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
-
+l
 ### Import LESS Files
 
 * [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
@@ -116,7 +116,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [ ] [Review the provided home mobile design file](design-files/hgitome-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
